@@ -2,6 +2,10 @@
 // Created by Eirik Drage Steen on 08/05/2021.
 //
 
+// https://www.spoj.com/problems/PALIN/
+// algorithm to find smallest palindrome larger than the input number
+
+
 #include "iostream"
 using namespace std;
 
