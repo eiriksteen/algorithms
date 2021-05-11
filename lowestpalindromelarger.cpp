@@ -4,6 +4,7 @@
 
 // https://www.spoj.com/problems/PALIN/
 // algorithm to find smallest palindrome larger than the input number
+// solves in O(n) time where n is length of input number
 
 
 #include "iostream"
