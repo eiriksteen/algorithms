@@ -2,7 +2,6 @@ import math
 
 #http://6.006.scripts.mit.edu/~6.006/spring08/wiki/index.php?title=Document_Distance_Problem_Definition
 
-
 def createWordsAndCountOccurrences(fileString):
     wordCount = {}
     i = -1
