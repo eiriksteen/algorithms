@@ -70,10 +70,8 @@ bool checkBalance(node* node) {
           maxDepth(node->right) - maxDepth(node->left) == -1)){
         return false;
     }
-    if (checkBalance(node->right) && checkBalance(node->left)){
-        return true;
-    }
-    return false;
+    
+    return (checkBalance(node->right) && checkBalance(node->left));
 }
 
 bool checkKeptBalance(node*& nodeLocal, node*& nodeGlobal, int value){
