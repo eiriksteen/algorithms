@@ -2,6 +2,8 @@
 // Created by Eirik Drage Steen on 11/06/2021.
 //
 
+// https://www.spoj.com/problems/GSS1/
+
 #include "iostream"
 using namespace std;
 
