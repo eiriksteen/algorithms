@@ -37,6 +37,7 @@ int cw(int r, int g, int b){
     if (r > 0 || g > 0 || b > 0) {
         return 29 + cwUtil(r, g, b);
     }
+    
     return 0;
 }
 
