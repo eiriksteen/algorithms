@@ -9,7 +9,7 @@ using namespace std;
 
 #define FOR(i,a,b) for (int (i) = a; (i) < (b); (i)++)
 
-string eraseandextend2(string s, int cs, int fs){
+string eraseandextend(string s, int cs, int fs){
     FOR(i, 1, cs){
         string pref = s.substr(0, i);
         string dpref = pref + pref;
@@ -38,7 +38,7 @@ int main(){
     cin >> cs >> fs;
     cin >> s;
 
-    cout << eraseandextend2(s, cs, fs) << endl;
+    cout << eraseandextend(s, cs, fs) << endl;
 
     return 0;
 }
