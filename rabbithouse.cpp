@@ -73,7 +73,6 @@ int main(){
                     res += cur - 1 - up;
                     up = cur - 1;
                     insertKey(m, itr, up, i - 1, j);
-
                 }
                 if (down < cur - 1) {
                     itr = m.find(down);
